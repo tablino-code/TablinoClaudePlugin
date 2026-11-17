@@ -31,7 +31,7 @@ You need a Tablino Office account and your **Tablino address for AI**: in Tablin
 3. Try it: `/tablino:project-status <a Project name>`.
 
 From a terminal, the same install is
-`claude plugin install tablino@tablino --marketplace tablino-code/tablino-claude-plugin --config mcp_url=<your address>`.
+`claude plugin install tablino --marketplace tablino-code/tablino-claude-plugin --config mcp_url=<your address>`.
 
 To disconnect, open My Tablino > AI + Tablino and choose Disconnect, or uninstall the plugin with `/plugin uninstall tablino@tablino`.
 
