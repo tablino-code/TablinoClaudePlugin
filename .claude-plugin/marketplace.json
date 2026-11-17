@@ -1,0 +1,13 @@
+{
+  "name": "tablino",
+  "owner": { "name": "Tablino" },
+  "description": "The Tablino plugin for Claude Code.",
+  "plugins": [
+    {
+      "name": "tablino",
+      "source": "./",
+      "description": "Connects Claude Code to your Tablino Office and adds Tablino skills.",
+      "category": "productivity"
+    }
+  ]
+}
