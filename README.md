@@ -22,7 +22,7 @@ You need a Tablino Office account. The plugin connects to `https://mcp.tablino.c
 1. In Claude Code, add the marketplace and install the plugin:
 
    ```
-   /plugin marketplace add tablino-code/tablino-claude-plugin
+   /plugin marketplace add tablino-code/TablinoClaudePlugin
    /plugin install tablino@tablino
    ```
 
@@ -31,7 +31,7 @@ You need a Tablino Office account. The plugin connects to `https://mcp.tablino.c
 3. Try it: `/tablino:project-status <a Project name>`.
 
 From a terminal, the same install is
-`claude plugin install tablino --marketplace tablino-code/tablino-claude-plugin`
+`claude plugin install tablino --marketplace tablino-code/TablinoClaudePlugin`
 (add `--config mcp_url=<address>` for another Tablino).
 
 To disconnect, open My Tablino > AI + Tablino and choose Disconnect, or uninstall the plugin with `/plugin uninstall tablino@tablino`.
