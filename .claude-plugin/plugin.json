@@ -1,19 +1,28 @@
 {
   "name": "tablino",
   "displayName": "Tablino",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Connects Claude Code to your Tablino Office and adds skills to log hours, start Projects from Quotations, organize Activities and summarize Projects.",
-  "author": { "name": "Tablino" },
+  "author": {
+    "name": "Tablino"
+  },
   "homepage": "https://github.com/tablino-code/tablino-claude-plugin",
   "repository": "https://github.com/tablino-code/tablino-claude-plugin",
   "license": "MIT",
-  "keywords": ["tablino", "mcp", "architecture", "timesheet", "projects"],
+  "keywords": [
+    "tablino",
+    "mcp",
+    "architecture",
+    "timesheet",
+    "projects"
+  ],
   "userConfig": {
     "mcp_url": {
       "type": "string",
       "title": "Tablino address for AI",
-      "description": "The MCP address shown in Tablino under My Tablino > AI + Tablino (Your Tablino address for AI).",
-      "required": true
+      "description": "The MCP address shown in Tablino under My Tablino > AI + Tablino. Keep the default for Tablino's production service.",
+      "required": false,
+      "default": "https://mcp.tablino.com.br/mcp"
     }
   }
 }

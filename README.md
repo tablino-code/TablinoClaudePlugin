@@ -17,7 +17,7 @@ Claude also picks a skill on its own when your request matches it, for example "
 
 ## Install
 
-You need a Tablino Office account and your **Tablino address for AI**: in Tablino, open My Tablino > AI + Tablino and copy it.
+You need a Tablino Office account. The plugin connects to `https://mcp.tablino.com.br/mcp` by default; the address is also shown in Tablino under My Tablino > AI + Tablino.
 
 1. In Claude Code, add the marketplace and install the plugin:
 
@@ -26,12 +26,13 @@ You need a Tablino Office account and your **Tablino address for AI**: in Tablin
    /plugin install tablino@tablino
    ```
 
-   When asked for **Tablino address for AI**, paste the address you copied.
+   Keep the default **Tablino address for AI** unless your Tablino shows another one.
 2. Restart Claude Code, type `/mcp`, choose `tablino` and authenticate: Tablino opens in the browser, you sign in and choose Allow.
 3. Try it: `/tablino:project-status <a Project name>`.
 
 From a terminal, the same install is
-`claude plugin install tablino --marketplace tablino-code/tablino-claude-plugin --config mcp_url=<your address>`.
+`claude plugin install tablino --marketplace tablino-code/tablino-claude-plugin`
+(add `--config mcp_url=<address>` for another Tablino).
 
 To disconnect, open My Tablino > AI + Tablino and choose Disconnect, or uninstall the plugin with `/plugin uninstall tablino@tablino`.
 
